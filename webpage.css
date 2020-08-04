@@ -4,14 +4,14 @@ body{
 	background: #ecf0f5;
 	padding:0px;
 	margin: 0px;
-	
+
 }
 #header{
 	/*border: solid 3px red;*/
 	background: #0A2B09E3;
 	width: 100vw;
 	height: 17vh;
-	
+
 }
 #subHeader{
 	display: inline-block;
@@ -26,17 +26,17 @@ body{
 	height: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	
+
 }
 #title{
 	text-align: center;
 	position: relative;
 	color: #004c6d;
 	font-size: 14px;
-    font-weight: 400;
+  font-weight: 400;
 }
 #content{
-	margin: 8px;
+	margin: 18px;
 	position: relative;
 	color: #000000;
 	font-size: 20px;
@@ -45,7 +45,7 @@ body{
 #imgContent{
 	position: relative;
 	width: 100%;
-	
+
 }
 #container{
 	border-radius: 20px;
@@ -53,20 +53,23 @@ body{
 	margin: 35px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
-	
+	display: block;
+	position: static;
+
 }
 #bar{
 	background: #004c6d;
 	height: 20px;
 }
 #footer{
-	
+
 	color: #ecf0f5;
 	text-align: center;
 	width: 100vw;
-	position: absolute;
+	position: relative;
 	height: 7vh;
-	top: 93vh;
+	top: 20vh;
 	background: #0A2B09E3;
 	width: 100vw;
+	display: block;
 }
